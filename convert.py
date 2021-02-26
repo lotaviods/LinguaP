@@ -1,4 +1,4 @@
-def codificar(frase, mensagem):
+def codificar(frase, mensagem = ''):
     novafrase = ""
     for letra in frase:
         if letra == " ":  # verifica a existencia de espaço para não substituir a ultima letra
@@ -8,7 +8,7 @@ def codificar(frase, mensagem):
     return print(mensagem + novafrase)
 
 
-def decodificar(frase, mensagem):
+def decodificar(frase, mensagem = ''):
     str = ""
     lista = list(frase)
     if lista[1] != "p":
@@ -35,4 +35,4 @@ codificar(palavra, "Palavra codificada: ")
 
 palavra = input("Digite a frase para decodificar: ")
 
-decodificar(palavra, "Frase codificada: ")
+decodificar(palavra, "Frase decodificada: ")
