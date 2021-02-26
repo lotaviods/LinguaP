@@ -31,7 +31,7 @@ def decodificar(frase, mensagem = ''):
 
 palavra = input("Digite a frase para codificar, caso queira somente decodificar tecle enter: ")
 
-codificar(palavra, "Palavra codificada: ")
+codificar(palavra, "Frase codificada: ")
 
 palavra = input("Digite a frase para decodificar: ")
 
