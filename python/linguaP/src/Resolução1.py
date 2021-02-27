@@ -1,3 +1,4 @@
+# Luiz Otávio, Izadora,Wahuane, Paula, Beatriz
 def codificar(frase, mensagem = ''):
     novafrase = ""
     for letra in frase:
@@ -31,7 +32,7 @@ def decodificar(frase, mensagem = ''):
 
 palavra = input("Digite a frase para codificar, caso queira somente decodificar tecle enter: ")
 
-codificar(palavra, "Frase codificada: ")
+codificar(palavra, "Palavra codificada: ")
 
 palavra = input("Digite a frase para decodificar: ")
 
